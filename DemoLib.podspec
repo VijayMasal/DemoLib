@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DemoLib"
-  s.version      = "1.0"
+  s.version      = "2.0"
   s.summary      = "A short description of DemoLib."
 
   
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 
   
 
-  s.source       = { :git => "https://github.com/VijayMasal/DemoLib.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/VijayMasal/DemoLib.git", :tag => "2.0" }
 
 
   
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "DemoLib", "DemoLib/**/*.{h,m}"
   
 end
