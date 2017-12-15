@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/shashwat/Music/Vijay iOS/DemoLib/Build/Products/Debug-iphonesimulator/DemoLib.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DemoLib-Swift.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/Build/Products/Debug-iphonesimulator/DemoLib.framework/Headers/DemoLib-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DemoLib.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/DemoLib.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/shashwat/Music/Vijay iOS/DemoLib/Build/Products/Debug-iphonesimulator/DemoLib.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/Build/Intermediates/DemoLib.build/Debug-iphonesimulator/DemoLib.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
