@@ -8,6 +8,11 @@
       'contents': [
         {
           'type': 'file',
+          'name': "ActivityManager.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/ActivityManager.h"
+        },
+        {
+          'type': 'file',
           'name': "DemoLib-Swift.h",
           'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/Build/Products/Debug-iphonesimulator/DemoLib.framework/Headers/DemoLib-Swift.h"
         },
@@ -15,6 +20,41 @@
           'type': 'file',
           'name': "DemoLib.h",
           'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/DemoLib.h"
+        },
+        {
+          'type': 'file',
+          'name': "DeviceUsageManager.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/DeviceUsageManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "InstantDataBase.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/InstantDataBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "LocationManager.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/LocationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "LocationNameAndTime.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/LocationNameAndTime.h"
+        },
+        {
+          'type': 'file',
+          'name': "SleepManager.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/SleepManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "StepsManager.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/StepsManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIDevice+PasscodeStatus.h",
+          'external-contents': "/Users/shashwat/Music/Vijay iOS/DemoLib/DemoLib/UIDevice+PasscodeStatus.h"
         }
       ]
     },

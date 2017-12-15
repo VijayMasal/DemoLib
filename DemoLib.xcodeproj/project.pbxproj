@@ -10,6 +10,27 @@
 		038785CA1FE3D1980026A0F7 /* DemoLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038785C01FE3D1980026A0F7 /* DemoLib.framework */; };
 		038785CF1FE3D1980026A0F7 /* DemoLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785CE1FE3D1980026A0F7 /* DemoLibTests.m */; };
 		038785D11FE3D1990026A0F7 /* DemoLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785C31FE3D1980026A0F7 /* DemoLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785EC1FE3D25E0026A0F7 /* ActivityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785DA1FE3D25E0026A0F7 /* ActivityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785ED1FE3D25E0026A0F7 /* ActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785DB1FE3D25E0026A0F7 /* ActivityManager.m */; };
+		038785EF1FE3D25E0026A0F7 /* DeviceUsageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785DD1FE3D25E0026A0F7 /* DeviceUsageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785F01FE3D25E0026A0F7 /* DeviceUsageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785DE1FE3D25E0026A0F7 /* DeviceUsageManager.m */; };
+		038785F11FE3D25E0026A0F7 /* InstantDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785DF1FE3D25E0026A0F7 /* InstantDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785F21FE3D25E0026A0F7 /* InstantDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785E01FE3D25E0026A0F7 /* InstantDataBase.m */; };
+		038785F41FE3D25E0026A0F7 /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785E21FE3D25E0026A0F7 /* LocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785F51FE3D25E0026A0F7 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785E31FE3D25E0026A0F7 /* LocationManager.m */; };
+		038785F61FE3D25E0026A0F7 /* LocationNameAndTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785E41FE3D25E0026A0F7 /* LocationNameAndTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785F71FE3D25E0026A0F7 /* LocationNameAndTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785E51FE3D25E0026A0F7 /* LocationNameAndTime.m */; };
+		038785F81FE3D25E0026A0F7 /* SleepManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785E61FE3D25E0026A0F7 /* SleepManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785F91FE3D25E0026A0F7 /* SleepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785E71FE3D25E0026A0F7 /* SleepManager.m */; };
+		038785FA1FE3D25E0026A0F7 /* StepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785E81FE3D25E0026A0F7 /* StepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785FB1FE3D25E0026A0F7 /* StepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785E91FE3D25E0026A0F7 /* StepsManager.m */; };
+		038785FC1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 038785EA1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		038785FD1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 038785EB1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.m */; };
+		038786001FE3D29B0026A0F7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 038785FF1FE3D29B0026A0F7 /* libsqlite3.tbd */; };
+		038786021FE3D3C00026A0F7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038786011FE3D3C00026A0F7 /* CoreMotion.framework */; };
+		038786041FE3D3C70026A0F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038786031FE3D3C70026A0F7 /* CoreLocation.framework */; };
+		038786061FE3D3CD0026A0F7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038786051FE3D3CD0026A0F7 /* HealthKit.framework */; };
+		038786081FE3D3D90026A0F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038786071FE3D3D90026A0F7 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,28 @@
 		038785C91FE3D1980026A0F7 /* DemoLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038785CE1FE3D1980026A0F7 /* DemoLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoLibTests.m; sourceTree = "<group>"; };
 		038785D01FE3D1990026A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038785DA1FE3D25E0026A0F7 /* ActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityManager.h; sourceTree = "<group>"; };
+		038785DB1FE3D25E0026A0F7 /* ActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityManager.m; sourceTree = "<group>"; };
+		038785DC1FE3D25E0026A0F7 /* DemoLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLib.h; sourceTree = "<group>"; };
+		038785DD1FE3D25E0026A0F7 /* DeviceUsageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUsageManager.h; sourceTree = "<group>"; };
+		038785DE1FE3D25E0026A0F7 /* DeviceUsageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUsageManager.m; sourceTree = "<group>"; };
+		038785DF1FE3D25E0026A0F7 /* InstantDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantDataBase.h; sourceTree = "<group>"; };
+		038785E01FE3D25E0026A0F7 /* InstantDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantDataBase.m; sourceTree = "<group>"; };
+		038785E21FE3D25E0026A0F7 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		038785E31FE3D25E0026A0F7 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		038785E41FE3D25E0026A0F7 /* LocationNameAndTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationNameAndTime.h; sourceTree = "<group>"; };
+		038785E51FE3D25E0026A0F7 /* LocationNameAndTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationNameAndTime.m; sourceTree = "<group>"; };
+		038785E61FE3D25E0026A0F7 /* SleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepManager.h; sourceTree = "<group>"; };
+		038785E71FE3D25E0026A0F7 /* SleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepManager.m; sourceTree = "<group>"; };
+		038785E81FE3D25E0026A0F7 /* StepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsManager.h; sourceTree = "<group>"; };
+		038785E91FE3D25E0026A0F7 /* StepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsManager.m; sourceTree = "<group>"; };
+		038785EA1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PasscodeStatus.h"; sourceTree = "<group>"; };
+		038785EB1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PasscodeStatus.m"; sourceTree = "<group>"; };
+		038785FF1FE3D29B0026A0F7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		038786011FE3D3C00026A0F7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		038786031FE3D3C70026A0F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		038786051FE3D3CD0026A0F7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		038786071FE3D3D90026A0F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038786081FE3D3D90026A0F7 /* Security.framework in Frameworks */,
+				038786061FE3D3CD0026A0F7 /* HealthKit.framework in Frameworks */,
+				038786041FE3D3C70026A0F7 /* CoreLocation.framework in Frameworks */,
+				038786021FE3D3C00026A0F7 /* CoreMotion.framework in Frameworks */,
+				038786001FE3D29B0026A0F7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +104,7 @@
 				038785C21FE3D1980026A0F7 /* DemoLib */,
 				038785CD1FE3D1980026A0F7 /* DemoLibTests */,
 				038785C11FE3D1980026A0F7 /* Products */,
+				038785FE1FE3D29B0026A0F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +120,23 @@
 		038785C21FE3D1980026A0F7 /* DemoLib */ = {
 			isa = PBXGroup;
 			children = (
+				038785DA1FE3D25E0026A0F7 /* ActivityManager.h */,
+				038785DB1FE3D25E0026A0F7 /* ActivityManager.m */,
+				038785DC1FE3D25E0026A0F7 /* DemoLib.h */,
+				038785DD1FE3D25E0026A0F7 /* DeviceUsageManager.h */,
+				038785DE1FE3D25E0026A0F7 /* DeviceUsageManager.m */,
+				038785DF1FE3D25E0026A0F7 /* InstantDataBase.h */,
+				038785E01FE3D25E0026A0F7 /* InstantDataBase.m */,
+				038785E21FE3D25E0026A0F7 /* LocationManager.h */,
+				038785E31FE3D25E0026A0F7 /* LocationManager.m */,
+				038785E41FE3D25E0026A0F7 /* LocationNameAndTime.h */,
+				038785E51FE3D25E0026A0F7 /* LocationNameAndTime.m */,
+				038785E61FE3D25E0026A0F7 /* SleepManager.h */,
+				038785E71FE3D25E0026A0F7 /* SleepManager.m */,
+				038785E81FE3D25E0026A0F7 /* StepsManager.h */,
+				038785E91FE3D25E0026A0F7 /* StepsManager.m */,
+				038785EA1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.h */,
+				038785EB1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.m */,
 				038785C31FE3D1980026A0F7 /* DemoLib.h */,
 				038785C41FE3D1980026A0F7 /* Info.plist */,
 			);
@@ -86,6 +152,18 @@
 			path = DemoLibTests;
 			sourceTree = "<group>";
 		};
+		038785FE1FE3D29B0026A0F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				038786071FE3D3D90026A0F7 /* Security.framework */,
+				038786051FE3D3CD0026A0F7 /* HealthKit.framework */,
+				038786031FE3D3C70026A0F7 /* CoreLocation.framework */,
+				038786011FE3D3C00026A0F7 /* CoreMotion.framework */,
+				038785FF1FE3D29B0026A0F7 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				038785D11FE3D1990026A0F7 /* DemoLib.h in Headers */,
+				038785EC1FE3D25E0026A0F7 /* ActivityManager.h in Headers */,
+				038785F11FE3D25E0026A0F7 /* InstantDataBase.h in Headers */,
+				038785F81FE3D25E0026A0F7 /* SleepManager.h in Headers */,
+				038785F61FE3D25E0026A0F7 /* LocationNameAndTime.h in Headers */,
+				038785FA1FE3D25E0026A0F7 /* StepsManager.h in Headers */,
+				038785F41FE3D25E0026A0F7 /* LocationManager.h in Headers */,
+				038785FC1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.h in Headers */,
+				038785EF1FE3D25E0026A0F7 /* DeviceUsageManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038785F51FE3D25E0026A0F7 /* LocationManager.m in Sources */,
+				038785F91FE3D25E0026A0F7 /* SleepManager.m in Sources */,
+				038785FB1FE3D25E0026A0F7 /* StepsManager.m in Sources */,
+				038785FD1FE3D25E0026A0F7 /* UIDevice+PasscodeStatus.m in Sources */,
+				038785ED1FE3D25E0026A0F7 /* ActivityManager.m in Sources */,
+				038785F21FE3D25E0026A0F7 /* InstantDataBase.m in Sources */,
+				038785F01FE3D25E0026A0F7 /* DeviceUsageManager.m in Sources */,
+				038785F71FE3D25E0026A0F7 /* LocationNameAndTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
